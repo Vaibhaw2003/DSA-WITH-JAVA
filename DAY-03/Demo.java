@@ -61,3 +61,72 @@
 //         }
 //     }  
 // }
+
+//---------- GETTING INPUT FROM USER IN ARRAY ----------
+
+// import java.util.Scanner;
+// class Demo{
+//     public static void main(String[] args) {
+//         System.out.println("Enter the number of elements you want to store in array:");
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();  // ye lin user se input lega
+
+//         int[] arr = new int[n]; // ye lin n size ka array banayega
+
+//         System.out.println("Enter " + n + " elements:");
+
+//         for( int i = 0; i < n; i++){  // ye lin loop chalayega n times
+//             arr[i] = sc.nextInt(); // ye lin user se array ke elements lega
+//         }
+
+//         System.out.println("The elements in the array are:"); // ye lin array ke elements print karega
+
+//         for( int i = 0; i < n; i++){  // ye lin loop chalayega n times
+//             System.out.println(arr[i]);  // ye lin array ke elements print karega
+//         }
+//     }
+// }
+
+
+//---------- USER SE ELEMENTS LEKAR ARRAY ME STORE KARNA ----------
+
+// import java.util.Scanner;
+// class Demo{
+//     public static void main(String[] args) {
+//         System.out.println("Enter the number of elements :");
+
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         int [] arr = new int[n]; // create an array of size n
+
+//         for(int i =0; i<n; i++){
+//             System.out.println("Enter element " + (i+1) + ":"); // prompt user to enter element
+
+//             arr[i] = sc.nextInt(); // take input from user
+        
+//             System.out.println("Element at index " + i + ": " + arr[i]); // print the element at index i
+//         }
+//         System.out.println("All elements in the array are:"); 
+
+//         for(int i =0; i<n; i++){
+//             System.out.println(arr[i]); // print all elements in the array
+//         }
+//     }
+// }
+
+//---------- 2D ARRAY----------
+
+class Demo {
+    public static void main(String[] args) {
+        int [][] num = new int[3][3]; // 3x3 2D array
+        int count = 1;
+        for(int i =0; i<3; i++){
+            for(int j =0; j<3; j++){
+                num[i][j] = count; // assign values to 2D array
+                count++;
+                System.out.println("Element at position (" + i + "," + j + "): " + num[i][j]); // print the element at position (i,j)
+            }
+        }
+    }
+}
