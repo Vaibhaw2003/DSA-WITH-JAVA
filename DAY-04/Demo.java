@@ -137,11 +137,10 @@
 
 // --------- REVERSE A STRING ----------
 
-public class Demo {
-    public static void main(String[] args) {
-        StringBuilder name = new StringBuilder("hello");
-        name.reverse();
-        System.out.println("Reversed String: " + name.toString());
-        
-    }
-}
+// public class Demo {
+//     public static void main(String[] args) {
+//         StringBuilder name = new StringBuilder("hello");
+//         name.reverse();
+//         System.out.println("Reversed String: " + name.toString()); 
+//     }
+// }

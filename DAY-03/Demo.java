@@ -117,16 +117,16 @@
 
 //---------- 2D ARRAY----------
 
-class Demo {
-    public static void main(String[] args) {
-        int [][] num = new int[3][3]; // 3x3 2D array
-        int count = 1;
-        for(int i =0; i<3; i++){
-            for(int j =0; j<3; j++){
-                num[i][j] = count; // assign values to 2D array
-                count++;
-                System.out.println("Element at position (" + i + "," + j + "): " + num[i][j]); // print the element at position (i,j)
-            }
-        }
-    }
-}
+// class Demo {
+//     public static void main(String[] args) {
+//         int [][] num = new int[3][3]; // 3x3 2D array
+//         int count = 1;
+//         for(int i =0; i<3; i++){
+//             for(int j =0; j<3; j++){
+//                 num[i][j] = count; // assign values to 2D array
+//                 count++;
+//                 System.out.println("Element at position (" + i + "," + j + "): " + num[i][j]); // print the element at position (i,j)
+//             }
+//         }
+//     }
+// }

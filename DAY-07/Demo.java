@@ -71,21 +71,21 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Demo {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// class Demo {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter 3 numbers: ");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
+//         System.out.print("Enter 3 numbers: ");
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int c = sc.nextInt();
 
-        System.out.println("Numbers = " + a + ", " + b + ", " + c);
+//         System.out.println("Numbers = " + a + ", " + b + ", " + c);
 
-        int avg = (a + b + c) / 3;
-        System.out.println("Average = " + avg);
-    }
-}
+//         int avg = (a + b + c) / 3;
+//         System.out.println("Average = " + avg);
+//     }
+// }
 
