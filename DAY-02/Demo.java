@@ -42,14 +42,30 @@
 
 //TO PRINT THE REVRSE ALL ELEMENTS IN AN ARRAY USING ENHANCED FOR LOOP------
 
+// class Demo {
+//     public static void main(String[] args){
+//         System.out.println("Enhanced For Loop (Reverse Array):");
+
+//         int[] numbers = {10, 20, 30, 40, 50};
+
+//         for( int i = numbers.length - 1; i >= 0; i-- ) {
+//             System.out.println("Element: " + numbers[i]);
+//         }
+//     }
+// }
+
+// ----------- TO PRINT ALL THE ELEMENT -----------
+
+import java.util.ArrayList;
+import java.util.List;
+
 class Demo {
     public static void main(String[] args){
-        System.out.println("Enhanced For Loop (Reverse Array):");
-
-        int[] numbers = {10, 20, 30, 40, 50};
-
-        for( int i = numbers.length - 1; i >= 0; i-- ) {
-            System.out.println("Element: " + numbers[i]);
-        }
+        List<Integer> l = new  ArrayList<>();
+        l.add(23);
+        l.add(34);
+        l.add(45);
+        System.out.println(l.size());
+        System.out.println(l);
     }
 }

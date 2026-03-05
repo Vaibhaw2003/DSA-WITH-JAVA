@@ -64,25 +64,29 @@
 // }
 
 
-import java.util.Scanner;;
-class Demo {
-    public static void main(String[] args){
-        int i;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the number : ");
-        int n= sc.nextInt();
-        if(n>=0){
-            for(i= 1; i<=n; i++)
-                {
-                    System.out.println(" ");
-                }
-            for(int j =1; j<=n; j++){
-                System.out.println("*");
-            }
-            }
-        else {
-            System.out.println("erro");
-            }
-            sc.close();
-        }
-}
+// import java.util.Scanner;;
+// class Demo {
+//     public static void main(String[] args)
+//     {
+//         int i;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the number : ");
+//         int n= sc.nextInt();
+//         if(n>=0)
+//             {
+//               for(i= 1; i<=n; i++)
+//                 {
+//                     System.out.println(" ");
+//                 }
+//                   for(int j =1; j<=n; j++){
+//                     System.out.println("*");
+//                 }
+//             }else {
+//                     System.out.println("erro");
+//                   }
+//                  sc.close();
+//     }
+// }
+
+
+
