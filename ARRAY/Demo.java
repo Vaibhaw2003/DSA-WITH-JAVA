@@ -37,33 +37,86 @@
 
 //--------- Sliding Window ---------
 
-import java.util.*;
+// import java.util.*;
 
-class Demo {
+// class Demo {
+//     public static void main(String[] args) {
+
+//         int arr[] = {2, 1, 5, 1, 3, 2};
+//         int k = 3;
+
+//         int windowSum = 0;
+//         int maxSum = 0;
+
+//         // first window
+//         for(int i = 0; i < k; i++) {
+//             windowSum += arr[i];
+//         }
+
+//         maxSum = windowSum;
+
+//         // slide the window
+//         for(int i = k; i < arr.length; i++) {
+
+//             windowSum = windowSum + arr[i] - arr[i-k];
+
+//             maxSum = Math.max(maxSum, windowSum);
+//         }
+
+//         System.out.println("Maximum Sum = " + maxSum);
+//     }
+// }
+
+//---------- SECOND EXAMPLE OF SLIDING WINDOW ---------
+
+// import java.util.*;
+// class Demo{
+//     public static void main(String[] args){
+//         int arr []= {2,3,4,5,6,7};
+//         int k =3;
+//         int ws= 0;
+//         int mx=0;
+//         //first window
+//         for(int i=0; i<k;i++){
+//             ws +=arr[i];
+//         }
+//         mx =ws;
+//         //slide window
+//         for(int i =k; i<arr.length;i++){
+//             ws = ws+arr[i]-arr[i-k];
+//             mx =Math.max(mx ,ws);
+//         }
+//         System.out.println(mx);
+//     }
+// }
+
+//------ Two Pointer Technique -------------
+import java.*;
+public class Demo {
+
     public static void main(String[] args) {
 
-        int arr[] = {2, 1, 5, 1, 3, 2};
-        int k = 3;
+        int[] arr = {1,2,3,4,6};
+        int target = 6;
 
-        int windowSum = 0;
-        int maxSum = 0;
+        int left = 0;
+        int right = arr.length-1;
 
-        // first window
-        for(int i = 0; i < k; i++) {
-            windowSum += arr[i];
+        while(left < right){
+
+            int sum = arr[left] + arr[right];
+
+            if(sum == target){
+                System.out.println("Pair Found");
+                return;
+            }
+
+            if(sum < target)
+                left++;
+            else
+                right--;
         }
 
-        maxSum = windowSum;
-
-        // slide the window
-        for(int i = k; i < arr.length; i++) {
-
-            windowSum = windowSum + arr[i] - arr[i-k];
-
-            maxSum = Math.max(maxSum, windowSum);
-        }
-
-        System.out.println("Maximum Sum = " + maxSum);
+        System.out.println("Pair Not Found");
     }
 }
-
