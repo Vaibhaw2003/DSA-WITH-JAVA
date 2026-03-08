@@ -8,14 +8,32 @@
 // }
 
 //--------- REVERSE THE STRING ------
-class Demo {
-    public static void main(String[] args){
-        String s = "vaibhaw";
-         String rev = " ";
+// class Demo {
+//     public static void main(String[] args){
+//         String s = "vaibhaw";
+//          String rev = " ";
 
-        for(int i = s.length()-1; i>=0; i--){
-          rev  = rev + s.charAt(i);
+//         for(int i = s.length()-1; i>=0; i--){
+//           rev  = rev + s.charAt(i);
+//         }
+//         System.out.println(rev);
+//     }
+// }
+
+//------------ TO PRINT THE LENGTH OF STRING ---------
+
+import java.util.Scanner;
+
+class Demo{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the string ");
+        String name = sc.nextLine();
+        for(int i =0; i<name.length(); i++){
+            System.out.println(name.charAt(i));
+        
         }
-        System.out.println(rev);
+        int len = name.length();
+        System.out.println(len);
     }
 }
