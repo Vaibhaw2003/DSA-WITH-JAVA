@@ -22,18 +22,30 @@
 
 //------------ TO PRINT THE LENGTH OF STRING ---------
 
-import java.util.Scanner;
+// import java.util.Scanner;
+
+// class Demo{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the string ");
+//         String name = sc.nextLine();
+//         for(int i =0; i<name.length(); i++){
+//             System.out.println(name.charAt(i));
+        
+//         }
+//         int len = name.length();
+//         System.out.println(len);
+//     }
+// }
+
+//--------  FIND THE LENGHT OF STRING ------
 
 class Demo{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the string ");
-        String name = sc.nextLine();
-        for(int i =0; i<name.length(); i++){
-            System.out.println(name.charAt(i));
+    public static void main(String[] args){
         
+        String name = " vaibhaw singh";
+        for( int i =1 ; i<= name.length(); i++){
+            System.out.println(name.charAt(i));
         }
-        int len = name.length();
-        System.out.println(len);
     }
 }
