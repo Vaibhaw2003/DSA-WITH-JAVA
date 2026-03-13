@@ -52,23 +52,47 @@
 
 //------- TO REVERSE THE STRING ------
 
+// import java.util.Scanner;
+
+// class Demo{
+//     public static void main(String[] args){
+//         Scanner sc =new Scanner(System.in);
+//         System.out.println("enter the name : ");
+//         String name = sc.nextLine();
+
+//         System.out.println(name.length());
+
+//         // reverse the string 
+//         String rev= "";
+//         for(int i=name.length()-1; i>0; i--){
+//             rev = rev + name.charAt(i);
+//         }
+
+//         System.out.println(rev);
+
+//     }
+// }
+
+
+//------ TO FIND THE LENGTH OF STRING -------
+
 import java.util.Scanner;
 
-class Demo{
-    public static void main(String[] args){
-        Scanner sc =new Scanner(System.in);
+public class Demo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("enter the name : ");
         String name = sc.nextLine();
 
         System.out.println(name.length());
 
-        // reverse the string 
-        String rev= "";
-        for(int i=name.length()-1; i>0; i--){
-            rev = rev + name.charAt(i);
+        // second methode 
+        String n = "";
+        for(int i = 0; i<name.length(); i++){
+            n = n + name.charAt(i);
+
         }
 
-        System.out.println(rev);
-
+        System.out.println(n.length());
     }
 }
