@@ -76,23 +76,59 @@
 
 //------ TO FIND THE LENGTH OF STRING -------
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Demo {
+// public class Demo {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the name : ");
+//         String name = sc.nextLine();
+
+//         System.out.println(name.length());
+
+//         // second methode 
+//         String n = "";
+//         for(int i = 0; i<name.length(); i++){
+//             n = n + name.charAt(i);
+
+//         }
+
+//         System.out.println(n.length());
+//     }
+// }
+
+//-------- Reverse a String ------
+
+// class Demo{
+//     public static void main(String[] args){
+//         String name = "vaibhaw";
+//         String rev = "";
+
+//         for(int i= name.length()-1; i> 0; i--){
+//             rev = rev + name.charAt(i);
+//         }
+
+//         System.out.println(rev);
+//     }
+// }
+
+//------- Check Palindrome String ------
+
+class Demo{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the name : ");
-        String name = sc.nextLine();
+        String name = "madam";
+        String pali = "" ;
 
-        System.out.println(name.length());
-
-        // second methode 
-        String n = "";
-        for(int i = 0; i<name.length(); i++){
-            n = n + name.charAt(i);
-
+        for( int i = name.length()-1; i>=0; i--){
+           
+            pali = pali + name.charAt(i);
         }
 
-        System.out.println(n.length());
+        if(name.equals(pali)){
+            System.out.println(" palindrom ");
+        }
+        else{
+            System.out.println(" not pali");
+        }
     }
 }
