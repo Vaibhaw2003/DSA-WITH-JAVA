@@ -125,24 +125,24 @@
 
 //----- 02 ---- Two Pointer Technique ------------
 
-class Demo{
-    public static void main(String[] args) {
-        int arr[]={2,3,4,5,6,7};
-        int target =15;
-        int l=0;
-        int r=arr.length-1;
-        while (l<r) {
-            int sum =arr[r]+arr[l];
-            if (sum==target) {
-                System.out.println("pair found");
-                return;
-            }
-            if(sum< target)
-                l++;
-            else
-                r--;
-        }
-        System.out.println("pair not faund");
-    }
-}
+// class Demo{
+//     public static void main(String[] args) {
+//         int arr[]={2,3,4,5,6,7};
+//         int target =15;
+//         int l=0;
+//         int r=arr.length-1;
+//         while (l<r) {
+//             int sum =arr[r]+arr[l];
+//             if (sum==target) {
+//                 System.out.println("pair found");
+//                 return;
+//             }
+//             if(sum< target)
+//                 l++;
+//             else
+//                 r--;
+//         }
+//         System.out.println("pair not faund");
+//     }
+// }
 
