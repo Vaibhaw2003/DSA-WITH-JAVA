@@ -148,39 +148,42 @@
 
 //--------- Count Vowels in String --------
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// class Demo{
-//     public static void main(String[] args) {
+class Demo{
+    public static void main(String[] args) {
 
-//         String result = "";
-//         Scanner sc = new Scanner(System.in);
-//         System.out.println("entre the name : ");
-//         String name = sc.nextLine();
+        int count = 1;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("entre the name : ");
+        String name = sc.nextLine();
 
-//         for( int i = 0; i<name.length(); i++){
-//             result = result + name.charAt(i);
+        for( int i = 0; i<name.length(); i++){
+            char ch = name.charAt(i);
 
-//         }
-//         System.out.println(result);
-//     }
-// }
+           if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+            count++;
+
+        }
+        System.out.println(count);
+    }
+}
 
 
 //-------- Remove Duplicate Characters ------
 
-public class Demo {
-     public static void main(String[] args) {
-        String s = "programming";
-String result = "";
+// public class Demo {
+//      public static void main(String[] args) {
+//         String s = "programming";
+// String result = "";
 
-for(int i=0;i<s.length();i++){
-    char ch = s.charAt(i);
+// for(int i=0;i<s.length();i++){
+//     char ch = s.charAt(i);
 
-    if(result.indexOf(ch) == -1)
-        result += ch;
-}
+//     if(result.indexOf(ch) == -1)
+//         result += ch;
+// }
 
-System.out.println(result);
-     }
-}
+// System.out.println(result);
+//      }
+// }
