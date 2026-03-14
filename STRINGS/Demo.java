@@ -114,21 +114,21 @@
 
 //------- Check Palindrome String ------
 
-class Demo{
-    public static void main(String[] args) {
-        String name = "madam";
-        String pali = "" ;
+// class Demo{
+//     public static void main(String[] args) {
+//         String name = "madam";
+//         String pali = "" ;
 
-        for( int i = name.length()-1; i>=0; i--){
+//         for( int i = name.length()-1; i>=0; i--){
            
-            pali = pali + name.charAt(i);
-        }
+//             pali = pali + name.charAt(i);
+//         }
 
-        if(name.equals(pali)){
-            System.out.println(" palindrom ");
-        }
-        else{
-            System.out.println(" not pali");
-        }
-    }
-}
+//         if(name.equals(pali)){
+//             System.out.println(" palindrom ");
+//         }
+//         else{
+//             System.out.println(" not pali");
+//         }
+//     }
+// }
