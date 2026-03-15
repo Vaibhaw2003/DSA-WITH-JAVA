@@ -18,22 +18,42 @@
 
 //----------- FIND AVARAGE OF NO FUNCTIONS IN JAVA ----------
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
+// class Demo{
+//     public static int AvarageNum( int a,int b){
+//         int avg = (a+ b)/2;
+//         return avg ;
+//     }
+
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the number a : ");
+//         int a = sc.nextInt();
+//         System.out.println("enter the second numcer b : ");
+//         int b =sc.nextInt();
+
+//         int res = AvarageNum(a, b);
+//         System.out.println(res);
+//     }
+// }
+
+//---------- FIND FACTORIAL OF NO. FUNCTIONS IN JAVA ----------
+
+import java.util.Scanner;
 class Demo{
-    public static int AvarageNum( int a,int b){
-        int avg = (a+ b)/2;
-        return avg ;
+    public static void fact(int n){
+        int factorial = 1;
+        for(int i= n; i> 1; i--){
+            factorial = factorial *i;
+        }
+        System.out.println(factorial);
     }
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the number a : ");
-        int a = sc.nextInt();
-        System.out.println("enter the second numcer b : ");
-        int b =sc.nextInt();
+        int n = sc.nextInt();
 
-        int res = AvarageNum(a, b);
-        System.out.println(res);
+        fact(n);
     }
 }
