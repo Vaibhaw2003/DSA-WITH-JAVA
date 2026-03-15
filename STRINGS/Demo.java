@@ -132,3 +132,19 @@
 //         }
 //     }
 // }
+
+//----- Check Anagram --------
+
+import java.util.Arrays;
+
+class Demo{
+    public static void main(String[] args) {
+        char[] a = "listen".toCharArray();
+        char[] b = "silent".toCharArray();
+
+        Arrays.sort(a);
+        Arrays.sort(b);
+
+          System.out.println(Arrays.equals(a,b));
+    }
+}

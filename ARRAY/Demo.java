@@ -148,26 +148,45 @@
 
 //--------- Count Vowels in String --------
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Demo{
-    public static void main(String[] args) {
+// class Demo{
+//     public static void main(String[] args) {
 
-        int count = 1;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("entre the name : ");
-        String name = sc.nextLine();
+//         int count = 1;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("entre the name : ");
+//         String name = sc.nextLine();
 
-        for( int i = 0; i<name.length(); i++){
-            char ch = name.charAt(i);
+//         for( int i = 0; i<name.length(); i++){
+//             char ch = name.charAt(i);
 
-           if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
-            count++;
+//            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+//             count++;
 
-        }
-        System.out.println(count);
-    }
-}
+//         }
+//         System.out.println(count);
+//     }
+// }
+
+
+//-------- Count Vowels in String (0.2)-------
+
+// class Demo{
+//      public static void main(String[] args){
+//         int count =1;
+//           String name = "vaibhaw singh";
+//           for(int i =0; i<name.length(); i++){
+//             char ch = name.charAt(i);
+
+//             if (ch=='a' || ch =='e'|| ch=='i'|| ch=='o'|| ch =='u') {
+//                 count++;
+//             }
+            
+//           }
+//           System.out.println(count);
+//      }
+// }
 
 
 //-------- Remove Duplicate Characters ------
