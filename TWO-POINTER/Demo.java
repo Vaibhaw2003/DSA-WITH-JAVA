@@ -2,26 +2,53 @@
 
 //--------- Bubble Sort ------------
 
+// class Demo{
+//     public static void main(String[] args) {
+//         int arr[] = { 12,13,14,15,11,61,8};
+
+//         for(int i = 0; i<arr.length -1; i++){
+//             for(int j = 0; j< arr.length-1; j++){
+
+//                 if (arr[j]>arr[j+1]) {
+//                    // swap
+//                     int temp = arr[j];
+//                     arr[j] = arr[j + 1];
+//                     arr[j + 1] = temp;
+//                 }
+//             }
+//         }
+//             // print sorted array
+//         for(int num : arr) {
+//             System.out.print(num + " ");
+
+//         }
+//     }
+// }
+
+//--------- Bubble Sort ------------
+
 import java.util.*;
-class Demo{
+
+class Demo {
     public static void main(String[] args) {
-        int arr[] = { 12,13,14,15,11,61,8};
+        int arr[] = {5, 3, 8, 4, 2};
 
-        for(int i = 0; i<arr.length -1; i++){
-            for(int j = 0; j< arr.length-1; j++){
-
-                if (arr[j]>arr[j+1]) {
-                   // swap
+        // Bubble Sort
+        for(int i = 0; i < arr.length - 1; i++) {
+            for(int j = 0; j < arr.length - 1 - i; j++) {
+                if(arr[j] > arr[j + 1]) {
+                    // swap
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
                 }
             }
         }
-            // print sorted array
+
+        // Print sorted array
+        System.out.println("Sorted array:");
         for(int num : arr) {
             System.out.print(num + " ");
-
         }
     }
 }
