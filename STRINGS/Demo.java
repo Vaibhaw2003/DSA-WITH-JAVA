@@ -135,16 +135,36 @@
 
 //----- Check Anagram --------
 
-import java.util.Arrays;
+// import java.util.Arrays;
+// class Demo{
+//     public static void main(String[] args) {
+//         char[] a = "listen".toCharArray();
+//         char[] b = "silent".toCharArray();
+
+//         Arrays.sort(a);
+//         Arrays.sort(b);
+
+//           System.out.println(Arrays.equals(a,b));
+//     }
+// }
+
+//-------- TO REVERSE THE STRING ------
 
 class Demo{
     public static void main(String[] args) {
-        char[] a = "listen".toCharArray();
-        char[] b = "silent".toCharArray();
+        String name = "vaibhaw singh";
 
-        Arrays.sort(a);
-        Arrays.sort(b);
+        //THE LENGTH OF STRING
+        
+        for(int i = 0; i < name.length()-1; i++){
+            System.out.println(name.charAt(i));
+        }
 
-          System.out.println(Arrays.equals(a,b));
+
+        //FOR REVERSE THE STRING 
+
+        for(int j = name.length()-1; j >= 0; j--){
+            System.out.println(name.charAt(j));
+        }
     }
 }
