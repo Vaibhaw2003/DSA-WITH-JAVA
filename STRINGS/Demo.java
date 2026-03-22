@@ -150,21 +150,77 @@
 
 //-------- TO REVERSE THE STRING ------
 
-class Demo{
+// class Demo{
+//     public static void main(String[] args) {
+//         String name = "vaibhaw singh";
+
+//         //THE LENGTH OF STRING
+
+//         for(int i = 0; i < name.length()-1; i++){
+//             System.out.println(name.charAt(i));
+//         }
+
+
+//         //FOR REVERSE THE STRING 
+
+//         for(int j = name.length()-1; j >= 0; j--){
+//             System.out.println(name.charAt(j));
+//         }
+//     }
+// }
+
+//--------- TO CHEK PALINDROM -------
+
+// import java.util.Scanner;
+// class Demo{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the string : ");
+
+//         String name = sc.nextLine();
+
+//         for(int i = 0; i< name.length()-1; i++){
+//             for(int j = 0; j< name.length() -1; j++){
+                
+//                 if ( name.charAt(i)!= name.charAt(j)) {
+//                     System.out.println("not palindrome ");
+                    
+//                 }
+//                 else
+//                     System.out.println("it is palindrome");
+//             }
+//         }
+
+//     }
+// }
+
+import java.util.Scanner;
+
+public class Demo {
     public static void main(String[] args) {
-        String name = "vaibhaw singh";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the name  : ");
 
-        //THE LENGTH OF STRING
-        
-        for(int i = 0; i < name.length()-1; i++){
-            System.out.println(name.charAt(i));
+        String name = sc.nextLine();
+
+        int i =0;
+        int j = name.length()-1;
+
+        boolean isPalindrome = true;
+
+        while (i< j) {
+            if (name.charAt(i)!= name.charAt(j)){
+                isPalindrome = false;
+                break;
+            }
+                i++;
+                j--;
         }
-
-
-        //FOR REVERSE THE STRING 
-
-        for(int j = name.length()-1; j >= 0; j--){
-            System.out.println(name.charAt(j));
+        if (isPalindrome) {
+            System.out.println("yes");
+            
+        }else
+            System.out.println("not");
+            
         }
     }
-}
