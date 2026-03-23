@@ -38,22 +38,42 @@
 
 //------- N QUEEN PROBLEAM ----------
 
+// class Demo{
+//     static int n = 4;
+
+//     static boolean isSafe(int board[][], int row , int col){
+//         for(int i = 0; i<col; i++){
+//             if (board[row][i]==1)
+//                 return false;
+
+//         for( int j =row ,j =col; i>=0 && j>=0;i--,j-- )
+//             if (board[i][j]==1) {
+//                 return false;
+                
+//             }
+//         }
+//     }
+
+// }
+
+// ----------- 1 TO N NATURAL NUMBER -------
+
 class Demo{
-    static int n = 4;
-
-    static boolean isSafe(int board[][], int row , int col){
-        for(int i = 0; i<col; i++){
-            if (board[row][i]==1)
-                return false;
-
-        for( int j =row ,j =col; i>=0 && j>=0;i--,j-- )
-            if (board[i][j]==1) {
-                return false;
+     public void  tnum(int n){
+            if (n==0) {
+                System.out.println("not run");
+                return;
                 
             }
+            System.out.println(n);
+            tnum(n-1);
         }
+
+    public static void main(String[] args) {
+        System.out.println("result is : ");
+
+        Demo obj = new Demo();   // create object
+        obj.tnum(5);
+       
     }
-
 }
-
-// ----------- 

@@ -194,33 +194,33 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Demo {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the name  : ");
+// public class Demo {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the name  : ");
 
-        String name = sc.nextLine();
+//         String name = sc.nextLine();
 
-        int i =0;
-        int j = name.length()-1;
+//         int i =0;
+//         int j = name.length()-1;
 
-        boolean isPalindrome = true;
+//         boolean isPalindrome = true;
 
-        while (i< j) {
-            if (name.charAt(i)!= name.charAt(j)){
-                isPalindrome = false;
-                break;
-            }
-                i++;
-                j--;
-        }
-        if (isPalindrome) {
-            System.out.println("yes");
+//         while (i< j) {
+//             if (name.charAt(i)!= name.charAt(j)){
+//                 isPalindrome = false;
+//                 break;
+//             }
+//                 i++;
+//                 j--;
+//         }
+//         if (isPalindrome) {
+//             System.out.println("yes");
             
-        }else
-            System.out.println("not");
+//         }else
+//             System.out.println("not");
             
-        }
-    }
+//         }
+//     }
