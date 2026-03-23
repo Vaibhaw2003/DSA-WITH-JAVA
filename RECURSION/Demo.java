@@ -80,22 +80,56 @@
 
 //------- TO PRINT THE FACTORIAL -------
 
-public class Demo {
+// public class Demo {
 
-     public int fact(int n ){
-        //base case
-        if (n == 0 || n == 1) {
-            System.out.println("error");
-            return 1;
+//      public int fact(int n ){
+//         //base case
+//         if (n == 0 || n == 1) {
+//             System.out.println("error");
+//             return 1;
+//         }
+//         //recursion 
+//             return n * fact(n - 1);
+//      }
+
+//      public static void main(String[] args) {
+//         Demo d = new Demo();
+//         int nums = d.fact(5);
+//         System.out.println(nums);
+
+//      }
+// }
+
+//--------- SUM OF N NUMBER -------
+
+// class Demo{
+//     public int sum(int n , int m){
+//         if (n==0 || m==0) {
+//             return 1;
+            
+//         }
+//         return n+ m;
+//     }
+//     public static void main(String[] args) {
+//         Demo d = new Demo();
+//         System.out.println("sum is  : ");
+//        int ans =  d.sum(3, 4);
+//         System.out.println(ans);
+//     }
+// }
+
+class Demo{
+    public int sum(int n){
+        if (n==0) {
+            return 0;
+            
         }
-        //recursion 
-            return n * fact(n - 1);
-     }
-
-     public static void main(String[] args) {
+        return n + sum(n-1);
+    }
+    public static void main(String[] args) {
         Demo d = new Demo();
-        int nums = d.fact(5);
-        System.out.println(nums);
-
-     }
+        System.out.println("sum is  : ");
+       int ans =  d.sum(3);
+        System.out.println(ans);
+    }
 }
