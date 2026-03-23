@@ -137,23 +137,23 @@
 
 //------ TO PRINT THE EVEN NUMBER ------
 
-public class Demo {
+// public class Demo {
 
-     public int even (int n){
-        if (n==0 ) {
-            return 0;
+//      public int even (int n){
+//         if (n==0 ) {
+//             return 0;
             
-        }
-        if (n % 2 == 0) {
-            return 1 + even(n - 1);
-        } else {
-            return even(n - 1);
-        }
+//         }
+//         if (n % 2 == 0) {
+//             return 1 + even(n - 1);
+//         } else {
+//             return even(n - 1);
+//         }
        
-     }
-     public static void main(String[] args) {
-        Demo s = new Demo();
-        int ans = s.even(5);
-        System.out.println(ans);
-     }
-}
+//      }
+//      public static void main(String[] args) {
+//         Demo s = new Demo();
+//         int ans = s.even(5);
+//         System.out.println(ans);
+//      }
+// }

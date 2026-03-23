@@ -27,28 +27,45 @@
 
 //--------- Bubble Sort ------------
 
-import java.util.*;
+// import java.util.*;
 
-class Demo {
-    public static void main(String[] args) {
-        int arr[] = {5, 3, 8, 4, 2};
+// class Demo {
+//     public static void main(String[] args) {
+//         int arr[] = {5, 3, 8, 4, 2};
 
-        // Bubble Sort
-        for(int i = 0; i < arr.length - 1; i++) {
-            for(int j = 0; j < arr.length - 1 - i; j++) {
-                if(arr[j] > arr[j + 1]) {
-                    // swap
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                }
-            }
-        }
+//         // Bubble Sort
+//         for(int i = 0; i < arr.length - 1; i++) {
+//             for(int j = 0; j < arr.length - 1 - i; j++) {
+//                 if(arr[j] > arr[j + 1]) {
+//                     // swap
+//                     int temp = arr[j];
+//                     arr[j] = arr[j + 1];
+//                     arr[j + 1] = temp;
+//                 }
+//             }
+//         }
 
-        // Print sorted array
-        System.out.println("Sorted array:");
-        for(int num : arr) {
-            System.out.print(num + " ");
-        }
-    }
-}
+//         // Print sorted array
+//         System.out.println("Sorted array:");
+//         for(int num : arr) {
+//             System.out.print(num + " ");
+//         }
+//     }
+// }
+
+//---------- REMOVE DUPLICATE ELEMENTS ---------- 
+
+// public class Demo {
+//     public static void main(String[] args) {
+//         int [] arry = { 1,1,2,2,3,3,4};
+
+//         int i = 0;
+//         for(int j = 1; j< arry.length; j++){
+//             if (arry[i] != arry[j]) {
+//                 arry[i + 1] = arry[j];
+//                 i++;
+//             }
+//         }
+//         System.out.println(i+1);
+//     }
+// }
