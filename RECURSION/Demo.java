@@ -58,22 +58,44 @@
 
 // ----------- 1 TO N NATURAL NUMBER -------
 
-class Demo{
-     public void  tnum(int n){
-            if (n==0) {
-                System.out.println("not run");
-                return;
+// class Demo{
+//      public void  tnum(int n){
+//             if (n==0) {
+//                 System.out.println("not run");
+//                 return;
                 
-            }
-            System.out.println(n);
-            tnum(n-1);
-        }
+//             }
+//             System.out.println(n);
+//             tnum(n-1);
+//         }
 
-    public static void main(String[] args) {
-        System.out.println("result is : ");
+//     public static void main(String[] args) {
+//         System.out.println("result is : ");
 
-        Demo obj = new Demo();   // create object
-        obj.tnum(5);
+//         Demo obj = new Demo();   // create object
+//         obj.tnum(5);
        
-    }
+//     }
+// }
+
+//------- TO PRINT THE FACTORIAL -------
+
+public class Demo {
+
+     public int fact(int n ){
+        //base case
+        if (n == 0 || n == 1) {
+            System.out.println("error");
+            return 1;
+        }
+        //recursion 
+            return n * fact(n - 1);
+     }
+
+     public static void main(String[] args) {
+        Demo d = new Demo();
+        int nums = d.fact(5);
+        System.out.println(nums);
+
+     }
 }
