@@ -118,18 +118,42 @@
 //     }
 // }
 
-class Demo{
-    public int sum(int n){
-        if (n==0) {
+// class Demo{
+//     public int sum(int n){
+//         if (n==0) {
+//             return 0;
+            
+//         }
+//         return n + sum(n-1);
+//     }
+//     public static void main(String[] args) {
+//         Demo d = new Demo();
+//         System.out.println("sum is  : ");
+//        int ans =  d.sum(3);
+//         System.out.println(ans);
+//     }
+// }
+
+
+//------ TO PRINT THE EVEN NUMBER ------
+
+public class Demo {
+
+     public int even (int n){
+        if (n==0 ) {
             return 0;
             
         }
-        return n + sum(n-1);
-    }
-    public static void main(String[] args) {
-        Demo d = new Demo();
-        System.out.println("sum is  : ");
-       int ans =  d.sum(3);
+        if (n % 2 == 0) {
+            return 1 + even(n - 1);
+        } else {
+            return even(n - 1);
+        }
+       
+     }
+     public static void main(String[] args) {
+        Demo s = new Demo();
+        int ans = s.even(5);
         System.out.println(ans);
-    }
+     }
 }
