@@ -83,21 +83,73 @@
 
 //--------- TO PRINT THE HOLLOW SQUARE PATTERN ---------
 
-class Demo {
-    public static void main(String[] args) {
-        int n = 6;
+// class Demo {
+//     public static void main(String[] args) {
+//         int n = 6;
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+//         for (int i = 0; i < n; i++) {
+//             for (int j = 0; j < n; j++) {
 
-                // Border condition
-                if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print("  ");
-                }
-            }
-            System.out.println();
-        }
-    }
-}
+//                 // Border condition
+//                 if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
+//                     System.out.print("* ");
+//                 } else {
+//                     System.out.print("  ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+//-------- TO PRINT THE EVEN NUMBER FROM THE GIVEN NUMBER --------
+
+// import java.util.Scanner;
+
+// class Demo{
+
+//     public static boolean sum(int a){
+//         boolean num = a%2==0;
+//         return num;
+//     }
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the number : ");
+//         int num = sc.nextInt();
+
+//         boolean ans = sum(num);
+//         //System.out.println(ans);
+
+//         if (ans == true) {
+//             System.out.println("even number ");
+            
+//         }else
+//             System.out.println("odd number ");
+
+//     }
+// }
+
+
+// import java.util.Scanner;
+
+// class Demo {
+
+//     public static boolean sum(int a) {
+//         return a % 2 == 0;
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the number: ");
+//         int num = sc.nextInt();
+
+//         boolean result = sum(num);
+
+//         if (result) {
+//             System.out.println("Even number");
+//         } else {
+//             System.out.println("Odd number");
+//         }
+//     }
+// }
