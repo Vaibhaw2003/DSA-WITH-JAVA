@@ -1,3 +1,3 @@
- // for(int i = 0; i < name.length()-1; i++){
+for(int i = 0; i< name.length(); i++){
         //     System.out.println(name.charAt(i));
         // }

@@ -227,18 +227,52 @@
 
 //---------- TO CHECK ANAGRAM ---------
 
+// import java.util.Arrays;
+// class Demo{
+//     public static void main(String[] args) {
+//         String a = "listen";
+//         String b = "silent";
+
+//         char[] c1 = a.toCharArray();
+//         char[] c2 = b.toCharArray();
+
+//         Arrays.sort(c1);
+//         Arrays.sort(c2);
+
+//         System.out.println(Arrays.equals(c1, c2));
+//     }
+// }
+
+import java.util.Scanner;
 import java.util.Arrays;
-class Demo{
-    public static void main(String[] args) {
-        String a = "listen";
-        String b = "silent";
+class Demo { 
+    public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the name : ");
+        String name = sc.nextLine();
+
+        // for(int i = 0; i< name.length(); i++){
+        //     System.out.println(name.charAt(i));
+        // }
+
+        for(int j = name.length()-1; j>=0; j--){
+            System.out.println(name.charAt(j));
+        }
+
+        for(int i = 0; i< name.length(); i++){
+            System.out.println(name.charAt(i));
+        }
+
+        //to check anagram ----
+        String a = sc.nextLine();
+        String b = sc.nextLine();
 
         char[] c1 = a.toCharArray();
-        char[] c2 = b.toCharArray();
-
+        char[] c2 = b.toCharArray();    
         Arrays.sort(c1);
         Arrays.sort(c2);
-
         System.out.println(Arrays.equals(c1, c2));
+
     }
 }
