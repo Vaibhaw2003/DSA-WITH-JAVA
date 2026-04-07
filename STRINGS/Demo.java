@@ -256,16 +256,18 @@ class Demo {
         //     System.out.println(name.charAt(i));
         // }
 
-        for(int j = name.length()-1; j>=0; j--){
-            System.out.println(name.charAt(j));
-        }
+        // for(int j = name.length()-1; j>=0; j--){
+        //     System.out.println(name.charAt(j));
+        // }
 
-        for(int i = 0; i< name.length(); i++){
-            System.out.println(name.charAt(i));
-        }
+        // for(int i = 0; i< name.length(); i++){
+        //     System.out.println(name.charAt(i));
+        // }
 
         //to check anagram ----
+        System.out.println("enter the first name : ");
         String a = sc.nextLine();
+        System.out.println("enter the second name : ");
         String b = sc.nextLine();
 
         char[] c1 = a.toCharArray();
