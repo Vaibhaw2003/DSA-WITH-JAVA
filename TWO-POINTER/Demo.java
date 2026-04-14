@@ -55,7 +55,7 @@
 
 //---------- REMOVE DUPLICATE ELEMENTS ---------- 
 
-// public class Demo {
+// class Demo {
 //     public static void main(String[] args) {
 //         int [] arry = { 1,1,2,2,3,3,4};
 
