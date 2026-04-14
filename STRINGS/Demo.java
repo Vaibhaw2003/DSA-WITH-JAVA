@@ -243,14 +243,14 @@
 //     }
 // }
 
-import java.util.Scanner;
-import java.util.Arrays;
-class Demo { 
-    public static void main(String[] args){
+// import java.util.Scanner;
+// import java.util.Arrays;
+// class Demo { 
+//     public static void main(String[] args){
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the name : ");
-        String name = sc.nextLine();
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the name : ");
+//         String name = sc.nextLine();
 
         // for(int i = 0; i< name.length(); i++){
         //     System.out.println(name.charAt(i));
@@ -265,16 +265,40 @@ class Demo {
         // }
 
         //to check anagram ----
-        System.out.println("enter the first name : ");
-        String a = sc.nextLine();
-        System.out.println("enter the second name : ");
-        String b = sc.nextLine();
+//         System.out.println("enter the first name : ");
+//         String a = sc.nextLine();
+//         System.out.println("enter the second name : ");
+//         String b = sc.nextLine();
 
-        char[] c1 = a.toCharArray();
-        char[] c2 = b.toCharArray();    
-        Arrays.sort(c1);
-        Arrays.sort(c2);
-        System.out.println(Arrays.equals(c1, c2));
+//         char[] c1 = a.toCharArray();
+//         char[] c2 = b.toCharArray();    
+//         Arrays.sort(c1);
+//         Arrays.sort(c2);
+//         System.out.println(Arrays.equals(c1, c2));
 
-    }
-}
+//     }
+// }
+
+//----------- TO CHEK BOTH STRING ARE EQUAL OR NOT ----------
+
+// import java.util.Scanner;
+
+// public class Demo {
+
+//         public static void main(String[] args) {
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("enter the first name : ");
+
+//                 String s1 =sc.nextLine();
+//                 System.out.println("enter the second name : ");
+//                 String s2  = sc.nextLine();
+
+//                 if (s1.equals(s2)) {
+//                         System.out.println("both string are equal");
+//                 }
+//                 else
+//                         System.out.println("both string are not equal");        
+                        
+//                 }
+// }
+
