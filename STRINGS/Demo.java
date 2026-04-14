@@ -302,3 +302,18 @@
 //                 }
 // }
 
+
+//---------  TO CHECK BOTH NUMBER ARE  EQUAL OR NOT ---------
+
+class Demo{
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+
+        if (a == b) {
+            System.out.println("both number are equal");
+        }
+        else
+            System.out.println("both number are not equal");
+    }
+}
