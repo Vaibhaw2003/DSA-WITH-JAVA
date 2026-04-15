@@ -69,3 +69,26 @@
 //         System.out.println(i+1);
 //     }
 // }
+
+//--------- REVERSE A STRING ---------
+
+// class Demo {
+//     public static void main(String[] args) {
+//         String name = "vaibhaw singh";
+
+//         int i = 0;
+//         int j = name.length() - 1;
+
+//         while (i < j) {
+//             // Swap characters at positions i and j
+//             char temp = name.charAt(i);
+//             name = name.substring(0, i) + name.charAt(j) + name.substring(i + 1);
+//             name = name.substring(0, j) + temp + name.substring(j + 1);
+
+//             i++;
+//             j--;
+//         }
+
+//         System.out.println("Reversed string: " + name);
+//     }
+// }
