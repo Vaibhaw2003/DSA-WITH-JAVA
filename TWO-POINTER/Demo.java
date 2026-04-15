@@ -95,27 +95,27 @@
 
 
 //--------- REVERSE A STRING ENTERED BY USER ---------
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Demo {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string: ");
-        String name = sc.nextLine();
+// class Demo {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter a string: ");
+//         String name = sc.nextLine();
 
-        int i = 0;
-        int j = name.length() - 1;
+//         int i = 0;
+//         int j = name.length() - 1;
 
-        while (i < j) {
-            // Swap characters at positions i and j
-            char temp = name.charAt(i);
-            name = name.substring(0, i) + name.charAt(j) + name.substring(i + 1);
-            name = name.substring(0, j) + temp + name.substring(j + 1);
+//         while (i < j) {
+//             // Swap characters at positions i and j
+//             char temp = name.charAt(i);
+//             name = name.substring(0, i) + name.charAt(j) + name.substring(i + 1);
+//             name = name.substring(0, j) + temp + name.substring(j + 1);
 
-            i++;
-            j--;
-        }
+//             i++;
+//             j--;
+//         }
 
-        System.out.println("Reversed string: " + name);
-    }
-}
+//         System.out.println("Reversed string: " + name);
+//     }
+// }

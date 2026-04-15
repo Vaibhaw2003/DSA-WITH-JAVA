@@ -157,3 +157,48 @@
 //         System.out.println(ans);
 //      }
 // }
+
+//------- TO PRINT THE ODD NUMBER -------
+
+// class Demo {
+
+//      public int odd (int n){
+//         if (n==0 ) {
+//             return 0;
+            
+//         }
+//         if (n % 2 != 0) {
+//             return 1 + odd(n - 1);
+//         } else {
+//             return odd(n - 1);
+//         }
+       
+//      }
+//      public static void main(String[] args) {
+//         Demo s = new Demo();
+//         int ans = s.odd(5);
+//         System.out.println(ans);
+//      }
+//  }
+
+ //------- TO PRINT THE FIBONACCI NUMBER -------
+
+//  public class Demo {
+//         public int fib(int n){
+//             if (n == 0) {
+//                 return 0;
+                
+//             }
+//             if (n == 1) {
+//                 return 1;
+                
+//             }
+//             return fib(n-1) + fib(n-2);
+//         }
+//         public static void main(String[] args) {
+//             Demo s = new Demo();
+//             int ans = s.fib(5);
+//             System.out.println(ans);
+//         }
+    
+//  }
