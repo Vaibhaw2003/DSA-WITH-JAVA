@@ -175,3 +175,37 @@
         
 //     }
 // }
+
+
+//-------- TO PRINT THE PRIME NUMBER FROM THE GIVEN NUMBER --------
+
+// import java.util.Scanner;
+// class Demo{
+//     public static void prime(int a){
+//         if (a ==1) {
+//             System.out.println("neither prime nor composite");
+//         } else if (a == 2) {
+//             System.out.println("prime number");
+//         } else {
+//             boolean isPrime = true;
+//             for (int i = 2; i <= Math.sqrt(a); i++) {
+//                 if (a % i == 0) {
+//                     isPrime = false;
+//                     break;
+//                 }
+//             }
+//             if (isPrime) {
+//                 System.out.println("prime number");
+//             } else {
+//                 System.out.println("composite number");
+//             }   
+//         }
+//     }
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the number : ");
+//         int num = sc.nextInt();
+
+//         prime(num);
+//     }
+// }
