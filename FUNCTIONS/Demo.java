@@ -153,3 +153,25 @@
 //         }
 //     }
 // }
+
+
+//-------- TO PRINT THE EVEN NUMBER FROM THE GIVEN NUMBER --------
+
+// import java.util.Scanner;
+// class Demo{
+//     public static void sum(int a){
+//         if (a%2==0) {
+//             System.out.println("even number ");
+//         } else {
+//             System.out.println("odd number ");
+//         }
+//     }
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the number : ");
+//         int num = sc.nextInt();
+
+//         sum(num);
+        
+//     }
+// }
