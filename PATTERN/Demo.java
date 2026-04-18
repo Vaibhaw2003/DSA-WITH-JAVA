@@ -72,7 +72,7 @@
 // }
 
 
-//------- TO PRINT THE HOLLOW SQUARE PATTERN ---------
+//------- TO PRINT THE SQUARE PATTERN ---------
 
 // import java.util.Scanner;
 // class Demo{
@@ -88,3 +88,52 @@
 //         }
 //     }
 // }
+
+//-------------- TO PRINT THE HOLLOW SQUARE PATTERN ---------
+
+// import java.util.Scanner;
+// class Demo{
+//     public static void main(String[] args) {
+//         int i,j,n;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the number: ");
+//         n = sc.nextInt();
+        
+//         for(i = 1; i<=n ; i++){
+           
+//             for(j =1; j<= n; j++){
+//                 if(i==1 || i==n || j==1 || j==n){
+//                     System.out.print("*" + " ");
+//                 }else{
+//                     System.out.print(" " + " ");
+//                 }
+//             }System.out.println();
+//         }
+//     }
+// }
+
+//---------------- TO PRINT THE HOLLOW PYRAMID PATTERN ---------
+
+import java.util.Scanner;
+class Demo{
+    public static void main(String[] args) {
+        int i,j,n;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number: ");
+        n = sc.nextInt();
+        
+        for(i=1; i<=n; i++){
+            for(j=1; j<=n-i; j++){
+                System.out.print(" ");
+            }
+            for(j=1; j<=2*i-1; j++){
+                if(j==1 || j==2*i-1 || i==n){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
