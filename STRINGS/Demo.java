@@ -318,3 +318,11 @@
 //     }
 // }
 
+//------------ TO PRINT THE LENGHT OF STRING -----------
+
+public class Demo {
+        public static void main(String[] args) {
+                String s = "vaibhaw singh";
+                System.out.println(s.length());
+        }
+}
