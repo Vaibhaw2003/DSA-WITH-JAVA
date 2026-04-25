@@ -320,9 +320,23 @@
 
 //------------ TO PRINT THE LENGHT OF STRING -----------
 
+// public class Demo {
+//         public static void main(String[] args) {
+//                 String s = "vaibhaw singh";
+//                 System.out.println(s.length());
+//         }
+// }
+
+//------------ TO PRINT THE STRING IN UPPER CASE ---------
+import java.util.Scanner;
 public class Demo {
         public static void main(String[] args) {
-                String s = "vaibhaw singh";
-                System.out.println(s.length());
+                Scanner sc = new Scanner(System.in);
+                System.out.println("enter the name : ");
+                String name = sc.nextLine();
+
+                System.out.println(name.length());
+                System.out.println(name.toUpperCase());
+                System.out.println(name.toLowerCase());
         }
 }
