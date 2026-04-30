@@ -357,11 +357,22 @@
 
 //--------- TO REVERSE THE STRING USING StringBuilder ---------
 
-class Demo{
-        public static void main(String[] args) {
-                String name = "vaibhaw singh";
-                StringBuilder sb = new StringBuilder(name);
-                sb.reverse();
-                System.out.println(sb);
-        }
-}
+// class Demo{
+//         public static void main(String[] args) {
+//                 String name = "vaibhaw singh";
+//                 StringBuilder sb = new StringBuilder(name);
+//                 sb.reverse();
+//                 System.out.println(sb);
+//         }
+// }
+
+//--------- REVERSE THE STRING USING STREAM API ---------
+
+// class Demo{
+//         public static void main(String[] args) {
+//                 String name = "vaibhaw singh";
+//                 String rev = new StringBuilder(name).reverse().toString();
+//                 System.out.println(rev);
+//         }
+// }
+
