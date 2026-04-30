@@ -328,15 +328,40 @@
 // }
 
 //------------ TO PRINT THE STRING IN UPPER CASE ---------
-import java.util.Scanner;
-public class Demo {
-        public static void main(String[] args) {
-                Scanner sc = new Scanner(System.in);
-                System.out.println("enter the name : ");
-                String name = sc.nextLine();
+// import java.util.Scanner;
+// public class Demo {
+//         public static void main(String[] args) {
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("enter the name : ");
+//                 String name = sc.nextLine();
 
-                System.out.println(name.length());
-                System.out.println(name.toUpperCase());
-                System.out.println(name.toLowerCase());
+//                 System.out.println(name.length());
+//                 System.out.println(name.toUpperCase());
+//                 System.out.println(name.toLowerCase());
+//         }
+// }
+
+//-------- TO REVERSE THE STRING ---------
+
+// import java.util.Scanner;
+// class Demo{
+//         public static void main(String[] args){
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("enter the name : ");
+//                 String name = sc.nextLine();
+//                 for(int i = name.length()-1; i>=0; i--){
+//                         System.out.println(name.charAt(i));
+//                 }
+//         }
+// }
+
+//--------- TO REVERSE THE STRING USING StringBuilder ---------
+
+class Demo{
+        public static void main(String[] args) {
+                String name = "vaibhaw singh";
+                StringBuilder sb = new StringBuilder(name);
+                sb.reverse();
+                System.out.println(sb);
         }
 }
