@@ -212,14 +212,45 @@
 
 //-------- TO PRINT THE AVERAGE NUMBER --------
 
-class Demo{
-    public void avg(int a ,int b){
-        int avg = (a + b) / 2;
-        System.out.println(avg);
-    }
-    public static void main(String[] args) {
-        Demo d = new Demo();
-        d.avg(10, 20);
+// class Demo{
+//     public void avg(int a ,int b){
+//         int avg = (a + b) / 2;
+//         System.out.println(avg);
+//     }
+//     public static void main(String[] args) {
+//         Demo d = new Demo();
+//         d.avg(10, 20);
 
-    }
-}
+//     }
+// }
+
+
+//-------- TO PRINT THE SUM OF TWO NUMBER ---------
+
+// class Demo{
+//     public void sum (int a, int b){
+//         int sum = a+b;
+//         System.out.println(sum);
+
+//     }
+//     public static void main(String[] args){
+//         Demo d = new Demo();
+//         d.sum(10, 20);
+
+//     }
+// }
+
+
+//-------- TO PRINT THE MULTIPLICATION OF TWO NUMBER ---------
+ 
+// class Demo{
+//     public void mul( int a , int b){
+//         int mul = a* b;
+//         System.out.println(mul);
+
+//     }
+//     public static void main(String[] args) {
+//         Demo d = new Demo();
+//         d.mul(10, 20);
+//     }
+// }
