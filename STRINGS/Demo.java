@@ -393,21 +393,36 @@
 
 //--------- TO REVERSE THE STRING ---------
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Demo{
-        public static void main(String[] args) {
-             Scanner sd = new Scanner(System.in);
-             System.out.println("enter the name : ");
-             String name = sd.nextLine();
+// class Demo{
+//         public static void main(String[] args) {
+//              Scanner sd = new Scanner(System.in);
+//              System.out.println("enter the name : ");
+//              String name = sd.nextLine();
                 
-        //      for(int i = 0; i<name.length(); i++){
-        //         System.out.println(name.charAt(i));
-        //      }
+//         //      for(int i = 0; i<name.length(); i++){
+//         //         System.out.println(name.charAt(i));
+//         //      }
 
-        for(int j =name.length()-1; j>=0; j--){
-                System.out.println(name.charAt(j));
-        }
-        }
+//         for(int j =name.length()-1; j>=0; j--){
+//                 System.out.println(name.charAt(j));
+//         }
+//         }
+// }
 
-}
+//--------- TO CHECK BOTH STRING ARE EQUAL OR NOT ---------
+
+// class Demo{
+//         public static void main(String[] args){
+//                 String name = " vaibhaw singh";
+//                 String name2 = " harsh singh";
+
+//                 if(name.equals(name2)){
+//                         System.out.println("both string are equal");
+//                 }
+//                 else
+//                         System.out.println("both string are not equal"  );
+//          }
+// }
+
