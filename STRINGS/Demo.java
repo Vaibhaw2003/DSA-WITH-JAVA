@@ -441,12 +441,31 @@
 //--------- TO CONCATENATE THE STRING ---------
 
 // class Demo{
-//         void add (String a, String b){
-//                 System.out.println(a + b);
+//         String add (String a, String b){
+//                 return a + b;
 //         }
 
 //         public static void main(String[] args) {
 //                 Demo d = new Demo();
-//                 d.add("vaibhaw ", "singh");
+//                 System.out.println(d.add("vaibhaw ", "singh"));
+//         }
+// }
+
+
+//--------- TO CHECK BOTH STRING ARE EQUAL OR NOT ---------
+
+// class Demo{
+//         boolean compare(String a , String b){
+//                 return a.equals(b);
+//         }
+
+//         public static void main(String[] args) {
+//                 Demo d = new Demo();
+//                 boolean result = d.compare("vaibhaw", "vaibhaw");
+//                 if(result){
+//                         System.out.println("both string are equal");
+//                 }
+//                 else
+//                         System.out.println("both string are not equal");
 //         }
 // }
