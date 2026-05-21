@@ -426,3 +426,14 @@
 //          }
 // }
 
+
+//--------- TO PRINT THE CHARACTER OF STRING ---------
+
+// class Demo{
+//         public static void main(String [] args){
+//                 String name = "vaibhaw singh";
+//                 for(int i =0; i<name.length();i++){
+//                         System.out.println(name.charAt(i));
+//                 }
+//         }
+// }
