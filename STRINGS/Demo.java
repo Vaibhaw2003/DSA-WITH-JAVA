@@ -437,3 +437,16 @@
 //                 }
 //         }
 // }
+
+//--------- TO CONCATENATE THE STRING ---------
+
+// class Demo{
+//         void add (String a, String b){
+//                 System.out.println(a + b);
+//         }
+
+//         public static void main(String[] args) {
+//                 Demo d = new Demo();
+//                 d.add("vaibhaw ", "singh");
+//         }
+// }
