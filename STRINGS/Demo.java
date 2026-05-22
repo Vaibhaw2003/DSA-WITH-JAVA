@@ -473,16 +473,32 @@
 
 //--------- TO REVERSE THE STRING ---------
 
-class Demo {
-        public static void main(String[] args) {
-                String name = "vaibhaw singh";
-                String rev = " ";
+// class Demo {
+//         public static void main(String[] args) {
+//                 String name = "vaibhaw singh";
+//                 String rev = " ";
 
-                for(int i = name.length()-1; i>=0; i--){
-                        rev = rev + name.charAt(i);
-                }
-                System.out.println(rev);
-        }
+//                 for(int i = name.length()-1; i>=0; i--){
+//                         rev = rev + name.charAt(i);
+//                 }
+//                 System.out.println(rev);
+//         }
 
         
+// }
+
+//--------- TO CHECK BOTH STRING ARE ANAGRAM OR NOT ---------
+public class Demo {
+        public static void main(String[] args) {
+                String a = "listen";
+                String b = "silent";
+
+                char[] c1 = a.toCharArray();
+                char[] c2 = b.toCharArray();
+
+                java.util.Arrays.sort(c1);
+                java.util.Arrays.sort(c2);
+
+                System.out.println(java.util.Arrays.equals(c1, c2));
+        }
 }
