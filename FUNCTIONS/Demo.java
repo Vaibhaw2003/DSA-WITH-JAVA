@@ -274,3 +274,23 @@
 
 //     }
 // }
+
+//-------- TO PRINT THE AVERAGE OF TWO NUMBER USING RETURN TYPE ---------
+
+// import java.util.Scanner;
+
+// class Demo{
+//     public int avg(int a, int b){
+//         return (a + b) / 2;
+//     }
+
+//     public static void main(String[] args){
+//         Demo d = new Demo();
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         System.out.println(d.avg(a, b));
+
+//     }
+// }
