@@ -254,3 +254,23 @@
 //         d.mul(10, 20);
 //     }
 // }
+
+
+//-------- TO PRINT THE SUM OF TWO NUMBER USING RETURN TYPE ---------
+
+// import java.util.Scanner;
+
+// class Demo{
+//     public int sum(int a, int b){
+//         return a + b;
+//     }
+//     public static void main(String[] args){
+//         Demo d = new Demo();
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         System.out.println(d.sum(a, b));
+
+//     }
+// }
