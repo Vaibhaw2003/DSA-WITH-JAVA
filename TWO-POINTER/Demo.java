@@ -115,7 +115,29 @@
 //             i++;
 //             j--;
 //         }
-
 //         System.out.println("Reversed string: " + name);
 //     }
 // }
+
+//----------- Write an algorithm to solve Tower of Hanoi.---------
+
+class Demo{
+    public static void main(String[] args) {
+            int n = 3; // Number of disks
+            char source = 'A'; // Source rod
+            char target = 'C'; // Target rod
+            char auxiliary = 'B'; // Auxiliary rod
+    
+            towerOfHanoi(n, source, target, auxiliary);
+        }
+    
+        public static void towerOfHanoi(int n, char source, char target, char auxiliary) {
+            if (n == 1) {
+                System.out.println("Move disk 1 from " + source + " to " + target);
+                return;
+            }
+            towerOfHanoi(n - 1, source, auxiliary, target);
+            System.out.println("Move disk " + n + " from " + source + " to " + target);
+            towerOfHanoi(n - 1, auxiliary, target, source);
+        }
+}
