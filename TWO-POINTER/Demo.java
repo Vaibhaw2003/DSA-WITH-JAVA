@@ -141,3 +141,22 @@
 //             towerOfHanoi(n - 1, auxiliary, target, source);
 //         }
 // }
+
+//---------- Remove duplicate characters ------------
+
+class Demo{
+    public static void main(String[] args) {
+        String str = "hello world";
+        StringBuilder result = new StringBuilder();
+        boolean[] seen = new boolean[256]; // Assuming ASCII character set
+
+        for (char c : str.toCharArray()) {
+            if (!seen[c]) {
+                seen[c] = true;
+                result.append(c);
+            }
+        }
+
+        System.out.println("String after removing duplicates: " + result.toString());
+    }
+}
