@@ -291,6 +291,26 @@
 //         int b = sc.nextInt();
 
 //         System.out.println(d.avg(a, b));
-
 //     }
 // }
+
+//-------- TO PRINT THE FACTORIAL OF A NUMBER USING RETURN TYPE ---------
+
+import java.util.Scanner;
+class Demo{
+    public int fact(int n){
+        int fc = 1;
+        for(int i = n; i>0; i--){
+             fc =fc *i; 
+        }
+        return fc; 
+    }
+    public static void main(String[] args) {
+        Demo d = new Demo();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number : ");
+        int n = sc.nextInt();
+
+        System.out.println(d.fact(n));
+    }
+}
