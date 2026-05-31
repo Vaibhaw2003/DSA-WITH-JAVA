@@ -296,21 +296,42 @@
 
 //-------- TO PRINT THE FACTORIAL OF A NUMBER USING RETURN TYPE ---------
 
-import java.util.Scanner;
-class Demo{
-    public int fact(int n){
-        int fc = 1;
-        for(int i = n; i>0; i--){
-             fc =fc *i; 
-        }
-        return fc; 
-    }
-    public static void main(String[] args) {
-        Demo d = new Demo();
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the number : ");
-        int n = sc.nextInt();
+// import java.util.Scanner;
+// class Demo{
+//     public int fact(int n){
+//         int fc = 1;
+//         for(int i = n; i>0; i--){
+//              fc =fc *i; 
+//         }
+//         return fc; 
+//     }
+//     public static void main(String[] args) {
+//         Demo d = new Demo();
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the number : ");
+//         int n = sc.nextInt();
 
-        System.out.println(d.fact(n));
-    }
-}
+//         System.out.println(d.fact(n));
+//     }
+// }
+
+//-------- TO PRINT THE FIBONACCI OF A NUMBER USING RETURN TYPE ---------
+
+// import java.util.Scanner;
+// class Demo{
+//     public int fib(int n){
+//         if (n <= 1) {
+//             return n;
+//         }
+//         return fib(n - 1) + fib(n - 2);
+//     }
+
+//     public static void main(String[] args) {
+//         Demo d = new Demo();
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the number : ");
+//         int n = sc.nextInt();
+
+//         System.out.println(d.fib(n));
+//     }
+// }
