@@ -240,3 +240,27 @@
 
 //     }
 // }
+
+
+//----------- practice of java basics -----------
+
+// import java.util.Scanner;
+
+// class Demo{
+//     public static void main(String[] args){
+//         System.out.println("jay sri ram");
+//         int a = 20;
+//         int b =30;
+//         int sum = a +b;
+//         System.out.println(sum);
+
+//         System.out.println("enter the number ");
+//         Scanner sc = new Scanner(System.in);
+//         int num =sc.nextInt();
+
+//         System.out.println(num);
+//         for(int i =0; i<=num; i++){
+//             System.out.println("number is :" + num);
+//         }
+//     }
+// }
