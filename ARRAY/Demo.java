@@ -106,7 +106,6 @@
 //         while(left < right){
 
 //             int sum = arr[left] + arr[right];
-
 //             if(sum == target){
 //                 System.out.println("Pair Found");
 //                 return;
@@ -117,7 +116,6 @@
 //             else
 //                 right--;
 //         }
-
 //         System.out.println("Pair Not Found");
 //     }
 // }
