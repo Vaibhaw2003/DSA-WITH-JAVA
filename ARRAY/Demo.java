@@ -180,7 +180,6 @@
 //             if (ch=='a' || ch =='e'|| ch=='i'|| ch=='o'|| ch =='u') {
 //                 count++;
 //             }
-            
 //           }
 //           System.out.println(count);
 //      }
@@ -200,7 +199,6 @@
 //     if(result.indexOf(ch) == -1)
 //         result += ch;
 // }
-
 // System.out.println(result);
 //      }
 // }
@@ -222,12 +220,10 @@
 //                     minIndex = j;
 //                 }
 //             }
-
 //             int temp = arr[minIndex];
 //             arr[minIndex] = arr[i];
 //             arr[i] = temp;
 //         }
-
 //         System.out.println("Sorted Array:");
 
 //         for(int i = 0; i < n; i++) {
