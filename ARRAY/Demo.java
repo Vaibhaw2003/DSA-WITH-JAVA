@@ -10,7 +10,6 @@
 //         List<Integer> l = new ArrayList<>();
 //         l.add(23);
 //         l.add(24);
-
 //         System.out.println(l);
 //     }
 // }
