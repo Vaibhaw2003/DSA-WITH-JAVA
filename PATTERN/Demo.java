@@ -121,7 +121,6 @@
 //         Scanner sc = new Scanner(System.in);
 //         System.out.println("enter the number: ");
 //         n = sc.nextInt();
-        
 //         for(i=1; i<=n; i++){
 //             for(j=1; j<=n-i; j++){
 //                 System.out.print(" ");
@@ -147,7 +146,6 @@
 //         Scanner sc = new Scanner(System.in);
 //         System.out.println("enter the number: ");
 //         n = sc.nextInt();
-        
 //         for(i=n; i>=1; i--){
 //             for(j=1; j<=n-i; j++){
 //                 System.out.print(" ");
