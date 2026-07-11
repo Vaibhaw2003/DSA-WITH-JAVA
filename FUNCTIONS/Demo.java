@@ -11,7 +11,6 @@
 //         Scanner sc = new Scanner(System.in);
 //         System.out.println("enter the name : ");
 //         String name = sc.nextLine();
-
 //         printNamae(name);
 //     }
 // }
