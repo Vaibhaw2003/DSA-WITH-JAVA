@@ -9,9 +9,7 @@
 //         int row =sc.nextInt();
 //         System.out.println("enter the col");
 //         int col = sc.nextInt();
-
 //         int num[][] = new int[row][col];
-
 //         //input
 //         for(int i =0; i<row; i++){
 //             //colums
@@ -19,7 +17,6 @@
 //                 num[i][j] =sc.nextInt();
 //             }
 //         }
-
 //         //output
 //         System.out.println("the 2d array is : ");
 //          for(int i =0; i<row; i++){
