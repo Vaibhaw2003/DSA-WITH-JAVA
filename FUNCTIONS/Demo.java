@@ -1,7 +1,6 @@
 //----------- FUNCTIONS IN JAVA -----------
 
 // import java.util.Scanner;
-
 // class Demo {
 //     public static void printNamae(String name){
 //         System.out.println(name);
