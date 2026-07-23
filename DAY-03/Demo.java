@@ -9,7 +9,6 @@
 //         for(int i = 0; i < arr1D.length; i++) {
 //             System.out.println("Element at index " + i + ": " + arr1D[i]);
 //         }
-
 //         System.out.println("\n2D Array:");
 
 //         int[][] arr2D = {
