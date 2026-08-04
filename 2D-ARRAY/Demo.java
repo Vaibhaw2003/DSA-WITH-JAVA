@@ -47,7 +47,6 @@
 //                 num[i][j] =sc.nextInt();
 //             }
 //          }
-
 //          //output 
 //          System.out.println("the output is here");
 //          for(int i = 0; i< row; i++){
