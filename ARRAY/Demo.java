@@ -45,7 +45,6 @@
 
 //         int windowSum = 0;
 //         int maxSum = 0;
-
 //         // first window
 //         for(int i = 0; i < k; i++) {
 //             windowSum += arr[i];
