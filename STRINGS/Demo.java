@@ -31,7 +31,6 @@
 //         String name = sc.nextLine();
 //         for(int i =0; i<name.length(); i++){
 //             System.out.println(name.charAt(i));
-        
 //         }
 //         int len = name.length();
 //         System.out.println(len);
@@ -59,7 +58,6 @@
 //         Scanner sc =new Scanner(System.in);
 //         System.out.println("enter the name : ");
 //         String name = sc.nextLine();
-
 //         System.out.println(name.length());
 
 //         // reverse the string 
